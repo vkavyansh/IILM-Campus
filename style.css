@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+}
+body{
+    border-top: 10px solid rgb(5, 80, 56);
+
+}
+.detail {
+    display: flex;
+    flex-wrap: nowrap;        
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+
+.hero{
+    margin-top: 10px;
+    width: 45%;
+    height: 220px;
+    background-image: url(hero2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.gurugram, .grnoida, .lodhiroad, .lucknow, .jaipur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 600px;
+    border: 2px solid rgb(255, 255, 255);  
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(5, 80, 56);
+}
+
+
+.gurugramimg{
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    height: 279px;
+    background-image: url(gurugram.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grnoidaimg{
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    height: 279px;
+    background-image: url(grnoida.png);
+    background-size: cover;
+    background-position: center;
+}
+.lodhiimg{
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    height: 279px;
+    background-image: url(Lodhi-Road-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.lucknowimg{
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    height: 265px;
+    background-image: url(lucknow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.jaipurimg{
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    height: 265px;
+    background-image: url(jaipur.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gurugram, .grnoida, .lodhiroad, .lucknow, .jaipur {
+  display: inline-block;
+  transition: transform 1s;
+}
+
+.gurugram:hover, .grnoida:hover, .lodhiroad:hover, .lucknow:hover, .jaipur:hover{
+    transform: scale(1.05);
+    color: rgb(2, 49, 34);
+    background-color: rgb(243, 236, 236);
+    border: 2px solid rgb(0, 0, 0);
+}
